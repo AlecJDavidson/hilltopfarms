@@ -4401,6 +4401,14 @@ input[type=button].btn-block {
     padding-bottom: 0.5rem;
 }
 
+.navbar-logo {
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
@@ -10211,12 +10219,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand img {
-    height: 1.5rem;
+    height: 3rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     color: #fff;
     letter-spacing: 0.0625em;
 }
@@ -10239,7 +10247,7 @@ img::-moz-selection {
         transition: font-size 0.3s ease-in-out;
     }
     #mainNav .navbar-brand img {
-        height: 2rem;
+        height: 6rem;
         transition: height 0.3s ease-in-out;
     }
     #mainNav.navbar-shrink {
@@ -10267,7 +10275,8 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("assets/img/header-bg.jpg");
+    background-image: url("assets/img/farm-header2edited.jpg");
+    /* background-color: #54ff00; */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -10276,6 +10285,7 @@ header.masthead {
 
 header.masthead .masthead-subheading {
     font-size: 1.5rem;
+    color: #fff;
     font-style: italic;
     line-height: 1.5rem;
     margin-bottom: 25px;
@@ -10474,7 +10484,7 @@ header.masthead .masthead-heading {
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color: #B8860B;
 }
 
 .timeline>li .timeline-image h4 {
